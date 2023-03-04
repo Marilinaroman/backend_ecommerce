@@ -1,0 +1,196 @@
+
+[2023-02-28T09:50:35.711] [ERROR] error - Error: Hubo un error CastError: Cast to ObjectId failed for value "1111111" (type string) at path "_id" for model "mensajes"
+    at MensajesMongoDao.getById (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/dbOperations/managers/mongo.manager.js:17:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async getMensajes (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/service/mensajes.service.js:4:12)
+    at async getMensajesControllers (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/controllers/mensajes.controllers.js:7:26)
+[2023-02-28T09:52:25.306] [ERROR] error - Error: Hubo un error CastError: Cast to ObjectId failed for value "1111111" (type string) at path "_id" for model "mensajes"
+    at MensajesMongoDao.deleteById (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/dbOperations/managers/mongo.manager.js:76:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async deleteMensajes (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/service/mensajes.service.js:13:12)
+    at async deleteMensajesControllers (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/controllers/mensajes.controllers.js:35:26)
+[2023-02-28T09:53:13.954] [ERROR] error - Error: Hubo un error ValidationError: username: Path `username` is required.
+    at MensajesMongoDao.save (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/dbOperations/managers/mongo.manager.js:35:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async newMensajes (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/service/mensajes.service.js:7:12)
+    at async putMensajesControllers (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/controllers/mensajes.controllers.js:21:30)
+[2023-02-28T09:57:02.426] [ERROR] error - Error: Hubo un error CastError: Cast to ObjectId failed for value "1111" (type string) at path "_id" for model "carritos"
+    at CarritoDaosMongo.getById (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/dbOperations/managers/ContenedorCarritoMongo.js:13:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async getById (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/service/carrito.service.js:4:12)
+    at async getByIdControllers (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/controllers/carrito.controllers.js:7:26)
+[2023-02-28T10:02:28.457] [ERROR] error - Error: Hubo un error ValidationError: total: Path `total` is required., username: Path `username` is required.
+    at PedidosMongoDao.save (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/dbOperations/managers/mongo.manager.js:35:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async savePedido (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/service/pedidos.service.js:4:12)
+    at async savePedidosController (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/controllers/pedidos.controllers.js:17:26)
+[2023-02-28T10:02:54.852] [ERROR] error - Error: Hubo un error ValidationError: total: Path `total` is required.
+    at PedidosMongoDao.save (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/dbOperations/managers/mongo.manager.js:35:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async savePedido (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/service/pedidos.service.js:4:12)
+    at async savePedidosController (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/controllers/pedidos.controllers.js:17:26)
+[2023-02-28T10:03:07.700] [ERROR] error - ReferenceError: twilioClient is not defined
+    at savePedidosController (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/controllers/pedidos.controllers.js:19:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-02-28T10:04:15.083] [ERROR] error - ReferenceError: id is not defined
+    at savePedidosController (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/controllers/pedidos.controllers.js:22:96)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-02-28T10:04:47.468] [ERROR] error - Error: Hubo un error ValidationError: total: Path `total` is required., username: Path `username` is required.
+    at PedidosMongoDao.save (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/dbOperations/managers/mongo.manager.js:35:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async savePedido (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/service/pedidos.service.js:4:12)
+    at async savePedidosController (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/controllers/pedidos.controllers.js:18:26)
+[2023-02-28T10:04:51.966] [ERROR] error - ReferenceError: id is not defined
+    at savePedidosController (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/controllers/pedidos.controllers.js:22:96)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-02-28T10:05:31.176] [ERROR] error - ReferenceError: id is not defined
+    at savePedidosController (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/controllers/pedidos.controllers.js:22:96)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-02-28T10:05:34.473] [ERROR] error - ReferenceError: id is not defined
+    at savePedidosController (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/controllers/pedidos.controllers.js:22:96)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-02-28T10:05:50.207] [ERROR] error - ReferenceError: id is not defined
+    at savePedidosController (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/controllers/pedidos.controllers.js:22:96)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-02-28T10:05:52.440] [ERROR] error - ReferenceError: id is not defined
+    at savePedidosController (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/controllers/pedidos.controllers.js:22:96)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-02-28T10:06:06.177] [ERROR] error - ReferenceError: id is not defined
+    at savePedidosController (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/controllers/pedidos.controllers.js:22:96)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-02-28T10:08:05.239] [ERROR] error - ReferenceError: config is not defined
+    at savePedidosController (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/controllers/pedidos.controllers.js:23:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-02-28T10:19:21.461] [ERROR] error - Error: Hubo un error CastError: Cast to ObjectId failed for value "url" (type string) at path "_id" for model "productos"
+    at ProductosDaosMongo.getImgById (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/dbOperations/managers/ContenedorProductosMongo.js:23:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async getImgById (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/service/productos.service.js:20:12)
+    at async getImgByIdControllers (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/controllers/productos.controllers.js:50:26)
+[2023-02-28T13:03:23.635] [ERROR] error - TypeError: res.starus is not a function
+    at deleteProdController (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/controllers/productos.controllers.js:100:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-02-28T13:20:42.731] [ERROR] error - Error: Hubo un error ValidationError: username: Path `username` is required.
+    at MensajesMongoDao.save (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/dbOperations/managers/mongo.manager.js:35:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async newMensajes (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/service/mensajes.service.js:7:12)
+    at async putMensajesControllers (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/controllers/mensajes.controllers.js:21:30)
+[2023-02-28T13:23:13.458] [ERROR] error - Error: Hubo un error ValidationError: text.0: Cast to [string] failed for value "[ { type: 'usuario', sms: 'hola!' } ]" (type string) at path "text.0" because of "CastError"
+    at MensajesMongoDao.save (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/dbOperations/managers/mongo.manager.js:35:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async newMensajes (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/service/mensajes.service.js:7:12)
+    at async putMensajesControllers (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/controllers/mensajes.controllers.js:21:30)
+[2023-02-28T13:32:15.032] [ERROR] error - Error: Hubo un error CastError: Cast to embedded failed for value "{
+  '0': {
+    state: 'usuario',
+    sms: 'como estas?!',
+    _id: new ObjectId("63fe2abe9b8a79141a2a1b90")
+  },
+  '1': { _id: new ObjectId("63fe2c471d235787500b2a82") },
+  '2': {
+    state: 'usuario',
+    sms: 'Hola!',
+    _id: new ObjectId("63fe2c5f1d235787500b2a88")
+  },
+  hour: 'Tue Feb 28 2023 13:32:14 GMT-0300 (hora estándar de Argentina)',
+  state: 'usuario',
+  sms: 'bien!'
+}" (type Object) at path "text" because of "CastError"
+    at MensajesMongoDao.updateByIdMsj (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/dbOperations/managers/mongo.manager.js:67:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async putMensajes (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/service/mensajes.service.js:10:12)
+    at async putMensajesControllers (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/controllers/mensajes.controllers.js:24:30)
+[2023-02-28T13:32:22.669] [ERROR] error - Error: Hubo un error CastError: Cast to embedded failed for value "{
+  '0': {
+    state: 'usuario',
+    sms: 'como estas?!',
+    _id: new ObjectId("63fe2abe9b8a79141a2a1b90")
+  },
+  '1': { _id: new ObjectId("63fe2c471d235787500b2a82") },
+  '2': {
+    state: 'usuario',
+    sms: 'Hola!',
+    _id: new ObjectId("63fe2c5f1d235787500b2a88")
+  },
+  hour: 'Tue Feb 28 2023 13:32:22 GMT-0300 (hora estándar de Argentina)',
+  state: 'usuario',
+  sms: 'bien!'
+}" (type Object) at path "text" because of "CastError"
+    at MensajesMongoDao.updateByIdMsj (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/dbOperations/managers/mongo.manager.js:67:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async putMensajes (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/service/mensajes.service.js:10:12)
+    at async putMensajesControllers (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/controllers/mensajes.controllers.js:24:30)
+[2023-02-28T13:33:16.238] [ERROR] error - Error: Hubo un error CastError: Cast to embedded failed for value "{
+  '0': {
+    state: 'usuario',
+    sms: 'como estas?!',
+    _id: new ObjectId("63fe2abe9b8a79141a2a1b90")
+  },
+  '1': { _id: new ObjectId("63fe2c471d235787500b2a82") },
+  '2': {
+    state: 'usuario',
+    sms: 'Hola!',
+    _id: new ObjectId("63fe2c5f1d235787500b2a88")
+  },
+  hour: 'Tue Feb 28 2023 13:33:16 GMT-0300 (hora estándar de Argentina)',
+  state: 'usuario',
+  sms: 'bien!'
+}" (type Object) at path "text" because of "CastError"
+    at MensajesMongoDao.updateByIdMsj (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/dbOperations/managers/mongo.manager.js:67:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async putMensajes (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/service/mensajes.service.js:10:12)
+    at async putMensajesControllers (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/controllers/mensajes.controllers.js:24:30)
+[2023-02-28T13:33:40.132] [ERROR] error - Error: Hubo un error CastError: Cast to embedded failed for value "{
+  '0': {
+    state: 'usuario',
+    sms: 'como estas?!',
+    _id: new ObjectId("63fe2abe9b8a79141a2a1b90")
+  },
+  '1': { _id: new ObjectId("63fe2c471d235787500b2a82") },
+  '2': {
+    state: 'usuario',
+    sms: 'Hola!',
+    _id: new ObjectId("63fe2c5f1d235787500b2a88")
+  },
+  hour: 'Tue Feb 28 2023 13:33:40 GMT-0300 (hora estándar de Argentina)',
+  state: 'usuario',
+  sms: 'bien!'
+}" (type Object) at path "text" because of "CastError"
+    at MensajesMongoDao.updateByIdMsj (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/dbOperations/managers/mongo.manager.js:67:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async putMensajes (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/service/mensajes.service.js:10:12)
+    at async putMensajesControllers (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/controllers/mensajes.controllers.js:24:30)
+[2023-02-28T13:33:41.730] [ERROR] error - Error: Hubo un error CastError: Cast to embedded failed for value "{
+  '0': {
+    state: 'usuario',
+    sms: 'como estas?!',
+    _id: new ObjectId("63fe2abe9b8a79141a2a1b90")
+  },
+  '1': { _id: new ObjectId("63fe2c471d235787500b2a82") },
+  '2': {
+    state: 'usuario',
+    sms: 'Hola!',
+    _id: new ObjectId("63fe2c5f1d235787500b2a88")
+  },
+  hour: 'Tue Feb 28 2023 13:33:41 GMT-0300 (hora estándar de Argentina)',
+  state: 'usuario',
+  sms: 'bien!'
+}" (type Object) at path "text" because of "CastError"
+    at MensajesMongoDao.updateByIdMsj (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/dbOperations/managers/mongo.manager.js:67:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async putMensajes (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/service/mensajes.service.js:10:12)
+    at async putMensajesControllers (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/controllers/mensajes.controllers.js:24:30)
+[2023-02-28T14:56:42.863] [ERROR] error - TypeError: Assignment to constant variable.
+    at Strategy.signupController [as _verify] (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/controllers/user.controllers.js:24:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-02-28T14:57:25.628] [ERROR] error - TypeError: Assignment to constant variable.
+    at Strategy.signupController [as _verify] (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/controllers/user.controllers.js:25:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-02-28T14:57:59.393] [ERROR] error - TypeError: Assignment to constant variable.
+    at Strategy.signupController [as _verify] (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/controllers/user.controllers.js:25:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-02-28T14:58:24.206] [ERROR] error - TypeError: Assignment to constant variable.
+    at Strategy.signupController [as _verify] (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/controllers/user.controllers.js:25:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-02-28T14:59:32.604] [ERROR] error - TypeError: Assignment to constant variable.
+    at Strategy.signupController [as _verify] (file:///C:/Users/user/Desktop/Coderhouse/ecommerce_backend/src/controllers/user.controllers.js:25:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
